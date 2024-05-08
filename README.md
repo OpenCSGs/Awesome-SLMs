@@ -132,7 +132,7 @@ We are welcome contributions from researchers. For detailed guidelines on how to
 ## 📦 preference dataset
 - UltraFeedback [[code](https://github.com/thunlp/UltraChat)] [[dataset](https://huggingface.co/datasets/openbmb/UltraFeedback)]
   - release time: 2023/09
-  - dataset size: 92.2GB
+  - dataset size: 0.94GB
   - language: en
 
 
