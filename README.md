@@ -12,6 +12,7 @@ We are welcome contributions from researchers. For detailed guidelines on how to
   - [💪 Pretrain datasets](#-Pretrain-dataset)
   - [💡 SFT datasets](#-SFT-dataset)
   - [🔧 synthetic datasets](#-synthetic-dataset)
+  - [📦 preference dataset](#-preference-dataset)
   - [🌈 benchmark](#-benchmark)
  
 ## 👋 Introduction
@@ -110,9 +111,29 @@ We are welcome contributions from researchers. For detailed guidelines on how to
 
 
 ## 💡 SFT Datasets
+- ultrachat [[code](https://github.com/thunlp/UltraChat)] [[dataset](https://huggingface.co/datasets/stingning/ultrachat)]
+  - release time: 2023/04
+  - dataset size: 2.5GB
+  - language: en
+
+- ultrachat_200k [[code](https://github.com/thunlp/UltraChat)] [[dataset](https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k)]
+  - release time: 2023/10
+  - dataset size: 1.6GB
+  - language: en
 
 
 ## 🔧 synthetic datasets
+- cosmopedia [[code](https://github.com/thunlp/UltraChat)] [[dataset](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia)]
+  - release time: 2024/02
+  - dataset size: 92.2GB
+  - language: en
+
+
+## 📦 preference dataset
+- UltraFeedback [[code](https://github.com/thunlp/UltraChat)] [[dataset](https://huggingface.co/datasets/openbmb/UltraFeedback)]
+  - release time: 2023/09
+  - dataset size: 92.2GB
+  - language: en
 
 
 ## 🌈 benchmark
