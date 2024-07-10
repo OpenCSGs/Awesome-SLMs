@@ -76,17 +76,38 @@ We are welcome contributions from researchers. For detailed guidelines on how to
     - organzation: opencsg
     - model series: csg-wukong-1B, csg-wukong-1B-VL, csg-wukong-1B-chat
     - model size: 1B
+      
+- Qwen-series[[paper](https://arxiv.org/abs/2309.16609)] [[code](https://github.com/QwenLM/Qwen)] 
+[[model](https://huggingface.co/Qwen)]
+    - release time: 2023/08
+    - organzation: Alibaba Cloud
+    - model series: Qwen-1.8B, Qwen-7B, Qwen-14B, and Qwen-72B, Qwen-1.8B-Chat, Qwen-7B-Chat, Qwen-14B-Chat, Qwen-72B-Chat
+    - model size: 1.8B,7B,14B,72B
 
-- CT-LLM-Base[[paper](https://arxiv.org/pdf/2404.04167)] [[code](https://github.com/OpenBMB/MiniCPM)] 
-[[model](https://huggingface.co/m-a-p/CT-LLM-Base)]
+- Qwen2-series[[paper](https://qwenlm.github.io/zh/blog/qwen2/)] [[code](https://github.com/QwenLM/Qwen2)] [[model](https://huggingface.co/Qwen)]
+    - release time: 2024/06
+    - organzation: Alibaba Cloud
+    - model series: Qwen2-0.5B, Qwen2-1.5B, Qwen2-7B, Qwen2-57B-A14B, Qwen2-72B
+    - model size: 0.5B,7B,A14B,72B
+      
+- Gemma-series[[paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf)] [[code]([https://github.com/google-deepmind/gemma)] [[model](https://huggingface.co/google/gemma-2b)]
+    - release time: 2024/02
+    - organzation: Google
+    - model series: gemma-2b, gemma-2b-it, gemma-7b, gemma-7b-it, gemma-2-9b,gemma-2-9b-it,gemma-2-27b,gemma-2-27b-it
+    - model size: 2B,7B,27B
+
+- OpenELM-series[[paper](https://arxiv.org/abs/2404.14619)] [[code]([https://github.com/apple/corenet)] [[model](https://huggingface.co/collections/apple/openelm-instruct-models-6619ad295d7ae9f868b759c)]
     - release time: 2024/04
-    - organzation: opencsg
-    - model series: csg-wukong-1B, csg-wukong-1B-VL, csg-wukong-1B-chat
-    - model size: 1B
+    - organzation: apple
+    - model series: OpenELM-270M, OpenELM-450M, OpenELM-1.1B, OpenELM-3B,OpenELM-270M-Instruct,OpenELM-450M-Instruct,OpenELM-1.1B-Instruct,OpenELM-3B-Instruct
+    - model size: 0.27B,0.45B,1.1B,3B
 
-
-
-
+ - Sheared-LLaMA-series[[paper](https://arxiv.org/abs/2310.06694)] [[code]([https://github.com/princeton-nlp/LLM-Shearing)] [[model](https://huggingface.co/princeton-nlp/Sheared-LLaMA-1.3B)]
+    - release time: 2023/10
+    - organzation: Princeton NLP group
+    - model series:  Sheared-LLaMA-1.3B, Sheared-LLaMA-2.7B,Sheared-LLaMA-1.3B-Pruned, Sheared-LLaMA-2.7B-Pruned,Sheared-LLaMA-1.3B-ShareGPT, Sheared-LLaMA-2.7B-ShareGPT
+    - model size: 1.3B,2.7B
+      
 ## 💪 Pretrain Datasets
 - SlimPajama-627B [[paper](https://www.cerebras.net/blog/slimpajama-a-627b-token-cleaned-and-deduplicated-version-of-redpajama)] [[code](https://github.com/Cerebras/modelzoo/tree/main/src/cerebras/modelzoo/data_preparation/nlp/slimpajama)] [[dataset](https://huggingface.co/datasets/cerebras/SlimPajama-627B)]
   - release time: 2023/06
