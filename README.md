@@ -97,19 +97,19 @@ We are welcome contributions from researchers. For detailed guidelines on how to
     - model series: Qwen2-0.5B, Qwen2-1.5B, Qwen2-7B, Qwen2-57B-A14B, Qwen2-72B
     - model size: 0.5B,7B,A14B,72B
 
-- Gemma-series[[paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf)] [[code]([https://github.com/google-deepmind/gemma)] [[model](https://huggingface.co/google/gemma-2b)]
+- Gemma-series[[paper](https://storage.googleapis.com/deepmind-media/gemma/gemma-report.pdf)] [[code](https://github.com/google-deepmind/gemma)] [[model](https://huggingface.co/google/gemma-2b)]
     - release time: 2024/02
     - organzation: Google
     - model series: gemma-2b, gemma-2b-it, gemma-7b, gemma-7b-it, gemma-2-9b,gemma-2-9b-it,gemma-2-27b,gemma-2-27b-it
     - model size: 2B,7B,27B
 
-- OpenELM-series[[paper](https://arxiv.org/abs/2404.14619)] [[code]([https://github.com/apple/corenet)] [[model](https://huggingface.co/collections/apple/openelm-instruct-models-6619ad295d7ae9f868b759c)]
+- OpenELM-series[[paper](https://arxiv.org/abs/2404.14619)] [[code](https://github.com/apple/corenet)] [[model](https://huggingface.co/collections/apple/openelm-instruct-models-6619ad295d7ae9f868b759c)]
     - release time: 2024/04
     - organzation: apple
     - model series: OpenELM-270M, OpenELM-450M, OpenELM-1.1B, OpenELM-3B,OpenELM-270M-Instruct,OpenELM-450M-Instruct,OpenELM-1.1B-Instruct,OpenELM-3B-Instruct
     - model size: 0.27B,0.45B,1.1B,3B
 
- - Sheared-LLaMA-series[[paper](https://arxiv.org/abs/2310.06694)] [[code]([https://github.com/princeton-nlp/LLM-Shearing)] [[model](https://huggingface.co/princeton-nlp/Sheared-LLaMA-1.3B)]
+ - Sheared-LLaMA-series[[paper](https://arxiv.org/abs/2310.06694)] [[code](https://github.com/princeton-nlp/LLM-Shearing)] [[model](https://huggingface.co/princeton-nlp/Sheared-LLaMA-1.3B)]
     - release time: 2023/10
     - organzation: Princeton NLP group
     - model series:  Sheared-LLaMA-1.3B, Sheared-LLaMA-2.7B,Sheared-LLaMA-1.3B-Pruned, Sheared-LLaMA-2.7B-Pruned,Sheared-LLaMA-1.3B-ShareGPT, Sheared-LLaMA-2.7B-ShareGPT
