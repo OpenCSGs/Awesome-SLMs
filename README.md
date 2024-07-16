@@ -51,12 +51,12 @@ We are welcome contributions from researchers. For detailed guidelines on how to
   2. 训练策略：phi-1-base模型在CodeTextbook数据集（过滤后的代码语言数据集和合成教科书数据集）上进行预训练，使用AdamW优化器、线性预热线性衰减学习率调度、attention和残差dropout均为0.1，batch size为1024
   3. 注意力机制：使用了仅解码器transformer的多头注意力机制，并在预训练和微调过程中使用了flashattention来提高效率
   4. 模型层数和Block类型：
-  模型包含24层，使用并行配置的 MHA 和 MLP 层，每个Block包括以下部分：
-      隐藏层大小：2048
-      注意力头数：32
-      最大位置嵌入：2048
-      位置嵌入类型：旋转位置嵌入（rotary）
-      残差连接：gpt-j-residual
+  模型包含24层，使用并行配置的 MHA 和 MLP 层，每个Block包括以下部分：  
+      隐藏层大小：2048  
+      注意力头数：32  
+      最大位置嵌入：2048  
+      位置嵌入类型：旋转位置嵌入（rotary）  
+      残差连接：gpt-j-residual  
 
 4. phi-1_5 [paper] [model]
   - release time: 2023/09
@@ -67,13 +67,13 @@ We are welcome contributions from researchers. For detailed guidelines on how to
   2. 训练策略：从随机初始化开始训练phi-1.5，使用常数学习率2e-4（无预热），权重衰减：0.1。Adam优化器，动量参数为0.9和0.98。混合精度训练使用fp16和DeepSpeed ZeRO Stage 2，批量大小2048。
   3. 注意力机制：使用了仅解码器transformer的多头注意力机制，并在预训练和微调过程中使用了flashattention来提高效率
   4. 模型层数和Block类型：（和phi-1相同）
-  模型包含24层，使用并行配置的 MHA 和 MLP 层，每个Block包括以下部分：
-      隐藏层大小：2048
-      注意力头数：32
-      注意力头维度：64
-      最大位置嵌入：2048
-      位置嵌入类型：旋转位置嵌入（rotary）
-      残差连接：gpt-j-residual
+  模型包含24层，使用并行配置的 MHA 和 MLP 层，每个Block包括以下部分：  
+      隐藏层大小：2048  
+      注意力头数：32  
+      注意力头维度：64  
+      最大位置嵌入：2048  
+      位置嵌入类型：旋转位置嵌入（rotary）  
+      残差连接：gpt-j-residual  
 
 5. phi-2 [paper][model]
   - release time: 2023/12
@@ -97,13 +97,13 @@ We are welcome contributions from researchers. For detailed guidelines on how to
   后训练：包括监督微调（SFT）和直接偏好优化（DPO）两个阶段。SFT数据集覆盖多种领域的高质量数据，DPO数据集则用于调整模型行为
   3. 注意力机制：使用了仅解码器transformer的分组查询注意力机制，默认上下文长度为4K，使用LongRope技术扩展到128K，使用Flash Attention加速训练
   4. 模型层数和Block类型：（ Llama-2 类似的块结构）
-  模型包含32层，每个Block包括以下部分：
-      隐藏层大小：3072
-      注意力头数：32
-      注意力头维度：64
-      最大位置嵌入：2048
-      位置嵌入类型：旋转位置嵌入（rotary）
-      残差连接：gpt-j-residual
+  模型包含32层，每个Block包括以下部分：  
+      隐藏层大小：3072  
+      注意力头数：32  
+      注意力头维度：64  
+      最大位置嵌入：2048  
+      位置嵌入类型：旋转位置嵌入（rotary）  
+      残差连接：gpt-j-residual  
 
 7. Tinyllama [paper] [model]
   - release time: 2024/01
@@ -115,13 +115,15 @@ We are welcome contributions from researchers. For detailed guidelines on how to
   基础预训练：使用SlimPajama数据训练1.5万亿tokens，主要发展模型的常识推理能力。
   持续预训练：结合SlimPajama数据和StarCoder、Proof Pile等代码和数学内容，以及Skypile的中文数据，分别针对一般应用、数学和编码任务以及中文处理进行持续预训练
   3. 注意力机制：使用分组查询注意力机制，使用旋转位置嵌入（RoPE）,使用Flash Attention2加速训练
-  4. 模型层数和Block类型：模型共22层
-  隐藏层大小：2048
-  中间隐藏层大小：5632
-  上下文长度：2048
-  注意力头数：32
+  4. 模型层数和Block类型：模型共22层  
+  隐藏层大小：2048  
+  中间隐藏层大小：5632  
+  上下文长度：2048  
+  注意力头数：32  
   词汇表大小：32000
+
   激活函数：使用SwiGLU，即Swish激活函数和门控线性单元（GLU）的结合
+
   预归一化和RMS归一化：在每个Transformer子层的输入进行归一化
 
 8. MiniCPM-series [paper][code] [model]
