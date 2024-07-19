@@ -205,8 +205,6 @@ We are welcome contributions from researchers. For detailed guidelines on how to
   - model series:  Cerebras-GPT-111M,Cerebras-GPT-256M,Cerebras-GPT-590M,Cerebras-GPT-11.3B,Cerebras-GPT-2.7B,Cerebras-GPT-6.7B,Cerebras-GPT-111M,Cerebras-GPT-13B
   - model size: 111M, 256M, 590M, 1.3B, 2.7B, 6.7B, 13B
 
-
-
 ## 💪 Pretrain Datasets
 - SlimPajama-627B [[paper](https://www.cerebras.net/blog/slimpajama-a-627b-token-cleaned-and-deduplicated-version-of-redpajama)] [[code](https://github.com/Cerebras/modelzoo/tree/main/src/cerebras/modelzoo/data_preparation/nlp/slimpajama)] [[dataset](https://huggingface.co/datasets/cerebras/SlimPajama-627B)]
   - release time: 2023/06
